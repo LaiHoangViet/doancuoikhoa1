@@ -1,0 +1,231 @@
+/*Logo*/
+img.logo {
+	width: 100%;
+	border-radius: 68px;
+}
+
+/*Menu*/
+.custom-btn:hover{
+	letter-spacing:3px;
+	transition:0.8 ease;
+}
+
+.navbar-light .navbar-brand {
+	color: rgba(255, 255, 255, 0.9);
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 1px 2px #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+	color: #e91e63;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #e91e63;
+}
+
+.dropdown-menu {
+	padding: 0px;
+}
+span.navbar-toggler-icon {
+	background-image: url(https://i.ibb.co/1v9M0dZ/menu.png) !important;
+	width: 25px;
+	height: 25px;
+	cursor:pointer;
+}
+button.navbar-toggler:focus {
+	outline: none;
+}
+
+a.dropdown-item {
+	padding: 10px;
+	background: #515156;
+	color: #fff;
+}
+
+img.d-block.w-100.anh-header {
+	width: 100%;
+	height: 937px;
+}
+
+.menu-logo {
+	height: 150px;
+	opacity: 10.9;
+	background-color: #00000038;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.menu-logo.active {
+	height: 100px;
+	background-color: white;
+	-webkit-box-shadow: 1px 6px 9px 4px rgba(0,0,0,0.31);
+	-moz-box-shadow: 1px 6px 9px 4px rgba(0,0,0,0.31);
+	box-shadow: 1px 6px 9px 4px rgba(0,0,0,0.31);
+	transition: all 0.4s ease-in-out;
+}
+
+.menu-logo.active img.logo {
+	width: 80%;
+	border: 1px solid black;
+	transition: all 0.4s ease-in-out;
+}
+
+.menu-logo.active a.dropbtn {
+	color: black;
+	transition: all 0.4s ease-in-out;
+}
+
+div#collapsibleNavbar {
+	margin-right: 6%;
+}
+
+a.navbar-brand.logo {
+	margin-left: 5%;
+	width: 7%;
+}
+
+a#navbardrop.muc-menu {
+	color: #ffffff;
+	filter: brightness(1.8);
+}
+
+.dropdown-menu.show {
+	border: 0px;
+}
+
+a#navbardrop {
+	font-size: 18px;
+}
+
+.dropbtn {
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 197px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	top: 110%;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+a.dropbtn {
+	color: white;
+	font-size: 20px;
+}
+
+a.dropbtn:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.search-input input {
+	border: none;
+	border-bottom: 1px solid white;
+	display: block;
+	font-size: 1rem;
+	line-height: 1rem;
+	margin: 0;
+	padding: 0.5rem 0;
+	width: 80%;
+	text-align: left;
+	background-color: transparent;
+	color: #f8f9fa;
+	height: 25px;
+}
+
+input.search:focus {
+	outline: none;
+}
+
+.search-input {
+	display: flex;
+	margin-top: 7px;
+}
+
+input.search.active {
+	border-bottom: 1px solid black;
+	color: black;
+}
+
+span.material-icons {
+	color: white;
+}
+
+span.material-icons.active {
+	color: white;
+}
+
+.login-logout {
+	font-size: 18px;
+	color: white;
+	padding-left: 0px;
+}
+
+a.login-logout1:hover {
+	text-decoration: none;
+}
+
+span.login-logout.active {
+	color: black;
+}
+
+/*Slide show*/
+img.d-block.w-100.anh-header {
+	height: 721px;
+}
+
+
+@media only screen and (max-width: 1440px) {
+	img.d-block.w-100.anh-header {
+		height: 768px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+

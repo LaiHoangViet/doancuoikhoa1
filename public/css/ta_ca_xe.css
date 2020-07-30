@@ -1,0 +1,29 @@
+.row.tat-ca-xe {
+	padding: 20px;
+	margin-top: 5%;
+}
+
+span.san-pham {
+	color: black;
+	font-size: 16px;
+}
+
+span.san-pham1 {
+	color: black;
+	font-size: 14px;
+}
+
+span.Ten_xe {
+	color: #1976D2;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.col-md-4.tat-ca-xe1 {
+	padding: 12px;
+}
+
+.thumbnails {
+	overflow: hidden;
+	height: 253px;
+}
+

@@ -1,0 +1,238 @@
+/*Muc dich*/
+.gioi-thieu-trang-web {
+    width: 88%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-bottom: 3%;
+}
+
+.tieu-de-khau-hieu h3 {
+    font-family: Nunito;
+    color: #000064;
+    font-weight: 600;
+}
+
+.tieu-de-khau-hieu span {
+    /* color: #000027; */
+}
+
+.col.muc-tieu-nho i {
+    width: 26%;
+    height: 100;
+    height: 55px;
+}
+
+.col.muc-tieu-nho svg {
+    width: 23%;
+    height: 116px;
+    color: #1e65b0;
+    filter: brightness(50%);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.col.muc-tieu-nho h6 {
+    margin-top: 6%;
+    color: #000b43;
+}
+
+.col.muc-tieu-nho svg:hover {
+    filter: brightness(1);
+    width: 30%;
+}
+
+.tim-hieu-them button {
+    margin-top: 2%;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #000064;
+}
+
+.tieu-de-khau-hieu svg {
+    display: block;
+    margin-left: 48%;
+    margin-bottom: 1%;
+}
+
+svg.svg-inline--fa.fa-file-chart-line.fa-w-12.fa-7x {
+    width: 19%;
+}
+
+svg.svg-inline--fa.fa-file-chart-line.fa-w-12.fa-7x:hover {
+    width: 23%;
+}
+
+a.tim-hieu-them {
+    color: white;
+}
+
+/*Xe-nen-chon*/
+a.xe-nen-chon2 {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    width: 72.4%;
+    background-color: white;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+img.anh {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.col-md-4.xe-ne-chon1 {
+    text-align: -webkit-center;
+    padding: 30px;
+}
+
+.container-fluid.xe-nen-chon3 {
+    margin-top: 2%;
+    padding: -2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.xe-nen-chon3 h3 {
+    font-family: Nunito;
+    color: #000064;
+    font-weight: 600;
+}
+
+a.xe-nen-chon2:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.tieu-de-khau-hieu1 h3 {
+    font-family: Nunito;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.huong-dan-thue-xe {
+    text-align: center;
+    padding: 22px;
+    background-color: #1A237E;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tieu-de-khau-hieu1 svg {
+    display: block;
+    margin-left: 48%;
+    margin-bottom: 1%;
+}
+
+.anh-hdtx {
+    width: 70% !important;
+    border-radius: 134px;
+}
+
+.img-dat-xe {
+    text-align: -webkit-center;
+}
+
+.tieu-de-noi-dung span {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+a.noi-dung-thue-xe2 {
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    margin-top: 1%;
+    margin: 0px 92%;
+    width: 8%;
+    padding: 3px;
+    color: white;
+}
+
+a.noi-dung-thue-xe2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0%;
+    right: 100%;
+    bottom: 0;
+    background: #ffffff;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+a.noi-dung-thue-xe2:hover:before {
+    right: 0;
+}
+
+.xem-them-huong-dan-mua-xe {
+    margin-top: 2%;
+}
+
+.icon-do-la {
+    color: #1A237E !important;
+}
+
+.gia {
+    display: flex;
+    justify-content: center;
+}
+
+span.ten {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+span.gia1 {
+    color: black;
+}
+
+@media only screen and (max-width: 1440px) {
+  a.xe-nen-chon2 {
+    width: 76.4%;
+}
+.gioi-thieu-trang-web {
+    margin-top: 6%;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel-inner{
+        width: 105%;
+    }
+    .gioi-thieu-trang-web {
+        margin-top: 9%;
+    }
+    a.xe-nen-chon2 {
+        width: 94.4%;
+    }
+    img.anh{
+        width: 280px;
+    }
+    .container-fluid.xe-nen-chon3{
+        width: 105%;
+    }
+
+    .huong-dan-thue-xe {
+        width: 105%;
+    }
+
+    a.noi-dung-thue-xe2 {
+        margin: 0px 91%;
+        padding: 3px;
+    }
+}

@@ -1,0 +1,67 @@
+/*ÄÄƒng kÃ½*/
+body {
+	background: linear-gradient(to bottom, #0D47A1, #ffffff);
+}
+
+html {
+	height: 100%;
+}
+
+form.dang-ky {
+	display: flex;
+	flex-flow: column;
+	width: 30%;
+	background-color: white;
+	box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2), 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+
+.dang-ky2 {
+	background: url(https://res.cloudinary.com/dgmilxzy7/image/upload/c_scale,w_500,o_75,b_rgb:07beb8/v1506735375/CodePen/ViddenPixel.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 10rem;
+}
+
+.dang-ky2 h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #ffffff9c;
+	opacity: .75;
+	font-size: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input.dang-ky1 {
+	width: 60%;
+	border: 0px solid;
+	border-bottom: 1px solid #5a5a5a;
+	margin-top: 14px;
+	/* height: 35px; */
+}
+
+input.dang-ky1:focus {
+	outline: none;
+}
+
+.dang-ky3 {
+	margin-top: 10px;
+	margin-right: 42%;
+}
+
+button.nut-dang-ky {
+	margin-top: 10px;
+	padding: 10px;
+	width: 61%;
+	border: 0px solid;
+	background-color: #0D47A1;
+	border-radius: 3px;
+	color: #e6e6e6;
+	font-size: 16px;
+	font-weight: bold;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+button.nut-dang-ky:hover {
+	filter: brightness(1.5);
+}

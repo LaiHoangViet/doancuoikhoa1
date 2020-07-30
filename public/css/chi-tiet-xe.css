@@ -1,0 +1,37 @@
+.mieu-ta3 {
+    display: flex;
+    margin-top: 12%;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.anh-san-pham img {
+    width: 40%;
+}
+
+img.img-san-pahm {
+    width: 21%;
+}
+
+.mieu-ta {
+    margin-left: 3%;
+}
+
+h1.ten-san-pham {
+    font-weight: bold;
+}
+
+a.nut-dat-xe {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    background-color: #0D47A1;
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+a.nut-dat-xe:hover {
+    color: #0D47A1;
+    background-color: white;
+}

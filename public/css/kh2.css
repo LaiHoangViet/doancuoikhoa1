@@ -1,0 +1,34 @@
+  
+.container-fluid.menu-khang-hang {
+  position: sticky;
+  top: 0;
+  background-color: #0000006e;
+  height: 100px;
+}
+
+a.menu-khach-hang1 {
+  color: white;
+  font-size: 17px;
+}
+
+img.logo {
+  width: 70px;
+  border-radius: 50px;
+}
+
+.menu-khach-hang2 {
+  margin-top: 26px;
+}
+
+a.menu-khach-hang1 {
+  font-size: 18px;
+}
+
+.nav>li>a.menu-khach-hang1:hover {
+  background-color: unset;
+  color: #0D47A1;
+}
+
+.view-khach-hang1 {
+  max-width: 500px;
+}

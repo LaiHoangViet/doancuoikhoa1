@@ -1,0 +1,120 @@
+/*Footer*/
+.footer-2.logo-cong-ty img {
+	width: 24%;
+	display: block;
+	border-radius: 101px;
+}
+
+.footer {
+	background-color: #000038;
+}
+
+.footer-1 {display: flex;padding-bottom: 1%;padding-top: 1%;margin-left: 13%;}
+
+.footer-2.logo-cong-ty {
+	text-align: -webkit-center;
+	width: 30%;
+	order: 1;
+	margin-left: -9%;
+	margin-top: 1%;
+}
+
+span.name-cong-ty {
+	display: block;
+	color: white;
+	font-size: 25px;
+}
+
+span.dia-chi-footer {
+	display: block;
+	color: white;
+	font-size: 18px;
+}
+
+span.so-dien-thoai {
+	display: block;
+	color: white;
+}
+
+span.lien-ket {
+	color: white;
+}
+
+.footer-2.huong-dan-1 {
+	width: 30%;
+	margin-top: 2%;
+	order: 2;
+	margin-left: 15%;
+}
+
+span.tieu-de-footer {
+	display: block;
+	color: white;
+	font-size: 20px;
+	border-bottom: 1px solid;
+	width: 46%;
+}
+
+span.huong-dan {
+	display: block;
+	/* color: white; */
+	line-height: 3;
+}
+
+.footer-3 {display: block;margin-top: 4%;}
+
+span.lien-he.footer-3 {
+	display: block;
+	color: white;
+	font-size: 20px;
+	border-bottom: 1px solid;
+	width: 52%;
+}
+
+.lien-he-footer {
+	width: 35%;
+	order: 3;
+}
+
+input.input-footer.footer-3 {
+	width: 52%;
+}
+
+textarea.noi-dung-footer.footer-3 {
+	width: 52%;
+}
+
+button.btn.btn-success.send-footer.footer-3 {
+	background: white;
+	color: #000064;
+	border-color: white;
+}
+
+button.btn.btn-success.send-footer.footer-3:hover {
+	background: #000064;
+	color: #f8f9fa;
+	border-color: #000064;
+}
+
+span.huong-dan a {
+	color: white;
+}
+
+span.huong-dan a:hover {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer{
+        width: 105%;
+    }
+    span.lien-he.footer-3 {
+        width: 70%;
+    }
+    input.input-footer.footer-3 {
+        width: 65%;
+    }
+    textarea.noi-dung-footer.footer-3 {
+        width: 65%;
+    }
+}

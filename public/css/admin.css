@@ -1,0 +1,53 @@
+/**
+ * Author: DarkCeptor44
+ */
+
+$bg: hsl(0,0%,7%);
+$bgLight: hsl(0,0%,14%);
+$progressBarBlack: hsl(0,0%,10%);
+$primaryText: #ddd;
+$secondaryText: #eee;
+$blackColor: #888888;
+$borderColor: transparent;
+$formControlColor: transparent;
+.body{
+  height: 3000px;
+.wrapper{
+  .main-panel{
+    background: $bg;
+    
+    > .navbar, > .navbar .navbar-brand{
+      background: $bgLight;
+      color: $primaryText;
+    }
+    
+    .progress{
+      background-color: $progressBarBlack;
+      > .progress-bar.progress-bar-black{
+        background-color: $blackColor;
+      }
+    }
+    
+    .card, .card .title{
+      background-color: $bgLight;
+	    color: $secondaryText;
+    }
+    
+    .footer, .footer .copyright{
+      background-color: $bgLight;
+      border-color: $borderColor;
+      color: $primaryText;
+    }
+  }
+  
+  .sidebar[data-color="black"]:after,
+  .bootstrap-navbar[data-color="black"]:after{
+    background: $bgLight;
+    background-size: 150% 150%;
+  }
+  
+  .form-control, .form-control:focus{
+    background-color: $formControlColor;
+  }
+}
+}
