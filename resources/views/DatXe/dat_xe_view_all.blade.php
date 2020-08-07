@@ -48,7 +48,7 @@
 	<br><br>
 	
 	
-	<table class="table table-striped view-khach-hang table-responsive-lg">
+	<table class="table table-striped view-khach-hang table-responsive-lg" id="myTable">
 		<thead>
 			<tr>
 				<th scope="col">Ngày Đặt</th>
@@ -60,8 +60,6 @@
 				<th scope="col">Tổng tiền </th>
 				<th scope="col">Ngày Lấy</th>
 				<th scope="col">Ngày Trả</th>
-				<th></th>
-				<th></th>
 			</tr>
 		</thead>
 		<tbody>

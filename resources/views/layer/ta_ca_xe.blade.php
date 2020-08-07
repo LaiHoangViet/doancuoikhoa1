@@ -34,6 +34,6 @@
         </div>
         @endforeach
     </div>
+    @include('layer.phan_trang1');
 </div>
-
 @endsection

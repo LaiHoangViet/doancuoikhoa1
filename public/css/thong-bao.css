@@ -1,0 +1,36 @@
+.thongbaodangky {
+    background-color: background: rgb(0,212,255);
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 13%, rgba(18,9,121,1) 100%);
+    width: 30%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+span.thongbaodangky1 {
+    color: white;
+    font-size: 30px;
+    padding: 5%;
+}
+
+button.thongbaodangky1 {
+    width: 30%;
+    margin: 0 auto;
+    padding: 2%;
+    border: 0px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 13%, rgba(18,9,121,1) 100%);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+button.thongbaodangky1 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+button.thongbaodangky1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

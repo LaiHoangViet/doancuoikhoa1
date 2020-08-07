@@ -17,10 +17,6 @@
         <li class="nav-item dropdown">
           <a class="dropbtn" href="{{ route('huong-dan-mua-xe') }}">Hỗ trợ</a>
         </li>
-        {{-- 
-        <li class="nav-item dropdown muc-menu">
-          <a class="dropbtn">Giới Thiệu</a>
-        </li> --}}
       </ul>
       <form class="navbar-form navbar-left" action="{{ URL::to('tim_kiem') }}" method="post" role="Search">
         {{csrf_field()}}

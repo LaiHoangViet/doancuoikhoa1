@@ -2,8 +2,17 @@
 
 @section('content')
 
-<div class="container-fluid">
+{{-- <link href="{{asset('css/phan_trang.css')}}" rel="stylesheet" /> --}}
+{{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> --}}
 
+{{-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> --}}
+
+{{-- <script src="{{ asset('js/phan_trang.js') }}"></script> --}}
+{{-- <script type="text/javascript" src="http://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script> --}}
+
+
+
+<div class="container-fluid">
 	<form class="navbar-form navbar-left" action="{{ URL::to('tim_kiem_xe') }}" method="post" role="Search">
 		{{csrf_field()}}
 		<input type="text" class="form-control" placeholder="Search" name="key">
@@ -11,6 +20,7 @@
 			tìm kiếm 
 		</button>
 	</form>
+
 	<div class="container">
 		@if(isset($details))
 		<p> The Search results for your query <b> {{ $query }} </b> are :</p>
@@ -44,7 +54,7 @@
 	</a>
 	<br><br>
 	
-	<table class="table table-striped view-khach-hang table-responsive-lg">
+	<table class="table table-striped view-khach-hang table-responsive-lg" id="myTable">
 		<thead>
 			<tr>
 				<th scope="col">Tên Xe</th>
@@ -105,13 +115,20 @@
 					</a>
 				</td>
 			</tr>
-
-
-
 			@endforeach
 		</tbody>
 	</table>
 
+{{-- <script>
+	$(document).ready( function () {
+	    $('#myTable').dataTable({
+            "autoWidth": false,
+            "lengthChange": false,
+            "pageLength": 10,
+            "searching": false
+        });
+        } );
+</script> --}}
 </center>
 
 @endsection

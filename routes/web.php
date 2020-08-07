@@ -165,6 +165,12 @@ Route::post('tim_kiem_dx', function(){
 Route::get("gioi_thieu", "Controller@gioi_thieu")
 ->name("gioi_thieu");
 
+Route::get("thong-bao-dang-ky", "SignUpController@thong_bao_dang_ky")
+->name("thong-bao-dang-ky");
+
+Route::get("thong-bao-dat-xe", "Controller@thong_bao_dat_xe")
+->name("thong-bao-dat-xe");
+
 Route::get("dat_hang/{ma_xe}", "Controller@dat_hang")
 ->name("dat_hang");
 Route::post("process_dat_hang", "Controller@process_dat_hang")

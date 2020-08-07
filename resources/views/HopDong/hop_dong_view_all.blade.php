@@ -45,7 +45,7 @@
 		</button>
 	</a><br><br>
 	
-	<table border="1" width="100%">
+	<table border="1" width="100%" id="myTable"> 
 		<tr>
 			<th>Ngày</th>
 			<th>Khách Hàng</th>

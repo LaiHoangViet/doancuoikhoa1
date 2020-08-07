@@ -17,7 +17,7 @@
 		    </div>
 		  </div>
 
-		<center><div class="row">
+		<center><div class="row nut-them">
 		<button>Thêm Loại Xe</button>
 		<a href="{{url()->previous()}}">
 			<button type="button">

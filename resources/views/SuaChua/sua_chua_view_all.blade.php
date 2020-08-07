@@ -47,7 +47,7 @@
 	<br><br>
 	
 	
-	<table class="table table-striped view-khach-hang table-responsive-lg">
+	<table class="table table-striped view-khach-hang table-responsive-lg" id="myTable">
 		<thead>
 			<tr>
 				<th scope="col">Ngày Sửa</th>

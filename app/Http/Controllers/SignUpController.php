@@ -38,7 +38,7 @@ class SignUpController extends BaseController
         $khach_hang->Ten_co_quan = Request::get('Ten_co_quan');
         $khach_hang->insert();
 
-        return redirect()->route('layer');
+        return redirect()->route('thong-bao-dang-ky');
     }
 
     public function Admin_sign_up()
@@ -61,6 +61,11 @@ class SignUpController extends BaseController
         $Admin->insert();
 
         return redirect()->route('layerAdmin');
+    }
+
+    public function thong_bao_dang_ky()
+    {
+        return view('ThongBao.thong-bao-dang-ky');
     }
 
 }

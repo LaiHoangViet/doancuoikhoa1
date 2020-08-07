@@ -1,5 +1,5 @@
 
-<div class="container-fluid menu-khang-hang">
+<div class="container-fluid menu-khach-hang">
   <div class="navbar-header">
     <a class="navbar-brand logo" href="{{ route('layerAdmin') }}">
       <img src="{{asset('./img/logo.jpg')}}" class="logo">
@@ -13,7 +13,6 @@
       <li><a href="{{ route('xe.xe_view_all') }}" class="menu-khach-hang1">Quản lí xe </a></li>
       <li><a href="{{ route('dat_xe.dat_xe_view_all') }}" class="menu-khach-hang1">Quản lí đặt xe </a></li>
       <li><a href="{{ route('sua_chua.sua_chua_view_all') }}" class="menu-khach-hang1">Quản lí sửa chữa </a></li>
-      <li><a href="{{ route('hop_dong.hop_dong_view_all') }}" class="menu-khach-hang1">Quản lí hợp đồng </a></li>
       <li><a href="{{ route('Admin_logout') }}" class="menu-khach-hang1">Logout</a></li>
     </ul>
   </div>

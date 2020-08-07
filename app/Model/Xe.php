@@ -59,6 +59,15 @@ class Xe
 		$array = DB::select("select * from $this->table limit 6");
 		return $array;
 	}
+
+	public function list_xe($limit, $offset) {
+		$array = DB::select("select * from $this->table limit " . $limit . " offset " . $offset);
+		return $array;
+	}
+
+	public function count_all_xe() {
+		return DB::table("$this->table")->get()->count();
+	}
 	
 	public function update()
 	{

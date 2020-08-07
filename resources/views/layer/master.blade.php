@@ -26,6 +26,7 @@
   <link href="{{asset('css/ta_ca_xe.css')}}" rel="stylesheet">
   <link href="{{asset('css/gioi-thieu.css')}}" rel="stylesheet">
   <link href="{{asset('css/chi-tiet-xe.css')}}" rel="stylesheet">
+  <link href="{{asset('css/phan_trang.css')}}" rel="stylesheet">
 
 </head>
 

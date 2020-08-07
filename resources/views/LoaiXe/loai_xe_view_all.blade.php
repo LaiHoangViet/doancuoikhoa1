@@ -42,7 +42,7 @@
 		</button>
 	</a><br><br>
 
-	<table class="table table-striped view-khach-hang table-responsive-lg view-khach-hang1">
+	<table class="table table-striped view-khach-hang table-responsive-lg view-khach-hang1" id="myTable">
 		<thead>
 			<tr>
 				<th scope="col">Tên Loại Xe</th>
@@ -62,7 +62,8 @@
 							system_update_alt
 						</span>
 					</a>
-						&nbsp;	&nbsp;	&nbsp;
+				</td>
+				<td>
 					<a href="{{ route('loai_xe.loai_xe_delete', ['id' => $loai_xe->Ma_loai_xe]) }}" class="btn btn-simple btn-danger btn-icon remove">
 						<span class="material-icons">
 							delete_forever

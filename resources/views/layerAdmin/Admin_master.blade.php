@@ -7,25 +7,41 @@
   <title>Bootstrap Template</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="{{asset('css/kh2.css')}}" rel="stylesheet" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  <link href="{{asset('css/kh2.css')}}" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
   rel="stylesheet">
 
+  <link href="{{asset('css/phan_trang1.css')}}" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <script src="{{ asset('js/phan_trang.js') }}"></script>
+    <script src="{{ asset('js/cuon-trang.js') }}"></script>
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy">
 
 
-  <header data-spy="affix" data-offset-top="205">
+  <header class="header-menu">
     @include('layerAdmin.menu_Admin')
   </header>
   <div class="content">
     {{--     <nav > --}}
       @yield('content')
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
   </body>
+  <script>
+    $(document).ready( function () {
+      $('#myTable').dataTable({
+        "autoWidth": false,
+        "lengthChange": false,
+        "pageLength": 10,
+        "searching": false
+      });
+    } );
+  </script>
 
   </html>

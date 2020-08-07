@@ -8,10 +8,14 @@ $(window).scroll(function() {
 		$('.search').addClass('active');
 		$('.material-icons').addClass('active');
 		$('.login-logout').addClass('active');
+		$('.menu-khach-hang').addClass('active');
+		$('.header-menu').addClass('active');
 	} else {
 		$('.menu-logo').removeClass('active');
 		$('.search').removeClass('active');
 		$('.login-logout').removeClass('active');
 		$('.material-icons').removeClass('active');
+		$('.menu-khach-hang').removeClass('active');
+		$('.header-menu').removeClass('active');
 	}
 });

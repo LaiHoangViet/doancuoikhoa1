@@ -61,7 +61,7 @@
 		    </div>
 		  </div>
 
-  		<center><div class="row">
+  		<center><div class="row nut-them">
 			<button>Thêm Sửa</button>
 			<a href="{{url()->previous()}}">
 				<button type="button">
